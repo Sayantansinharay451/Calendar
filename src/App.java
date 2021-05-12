@@ -45,7 +45,7 @@ public class App {
 
 		System.out.println(" new Date is :" + cal.getTime());
 
-		System.out.println(cal.getDisplayName(cal.DAY_OF_WEEK, cal.LONG).toUpperCase()); /
+		System.out.println(cal.getDisplayName(cal.DAY_OF_WEEK, cal.LONG, Locale.US).toUpperCase()); // ye pura ho gya
 		/**
 		 * The getDisplayName() method of java.util.Calendar class returns String
 		 * representation of the calendar field value passed as parameter in a given
